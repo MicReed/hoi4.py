@@ -1,0 +1,1 @@
+pyuic6 -o ui_box_cv_ori.py ui_box_cv.ui
