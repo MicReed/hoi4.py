@@ -10,6 +10,7 @@ parser.add_argument("-i", "--input", help="The input file")
 parser.add_argument("-o", "--output", help="The output file")
 args = parser.parse_args()
 
+# args = argparse.Namespace(mode="hoi42json_blocks", input="demo_my_save_file.hoi4", output="demo_my_save_file_or.json")
 
 if args.mode == "binary2plain":
     text = load_as_text(args.input)
