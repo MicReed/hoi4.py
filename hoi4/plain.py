@@ -30,13 +30,6 @@ def tokenize(text):
     HOI4txt player = "GER" ideology = fascism
     to
     ['HOI4txt', 'player', '=', 'GER', 'ideology', '=', 'fascism']
-    
-    comment: 
-    1. the code did one thing text.strip().split(), and get rid of the double quotes
-    2. i can try with 
-        - text.strip().split()
-        - replace double quotes with empty string
-        - above steps can be changed
     """
 
     strings = list(re.finditer(r'".*?"', text))
